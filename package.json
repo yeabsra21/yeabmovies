@@ -1,16 +1,14 @@
 {
   "name": "telegram-movie-bot",
   "version": "1.0.0",
-  "description": "Telegram Movie Bot with Auto-Upload",
+  "description": "Movie Bot",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node --watch bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "axios": "^1.7.2",
     "dotenv": "^16.4.5",
-    "express": "^5.2.1",
-    "node-telegram-bot-api": "^0.66.0"
+    "node-telegram-bot-api": "^0.66.0",
+    "express": "^4.21.0"
   }
 }
